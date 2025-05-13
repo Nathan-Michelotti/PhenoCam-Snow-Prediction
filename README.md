@@ -34,12 +34,13 @@ You can add as many site dictionaries to `SITE_CONFIGS` as needed—just copy an
 
 Images and metadata for each site will be saved in a subdirectory under your specified `SAVE_ROOT`. The structure will look like this:
 
-/your/save/path/
-├── site_name/
-│ ├── image1.jpg
-│ ├── image2.jpg
-│ ├── ...
-│ └── metadata.csv
+- /your/save/path/
+  - site_name/
+    - image1.jpg
+    - image2.jpg
+    - ...
+    - metadata.csv
+
 
 ## Training Deep Learning Model
 
