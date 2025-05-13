@@ -10,7 +10,7 @@ This repository provides a complete pipeline for:
 
 ## Configuration: Downloading Images
 
-To begin downloading PhenoCam images, open the `run_image_download.py` script and edit the user-defined settings.
+To begin downloading PhenoCam images, open the `run_image_download.py` script in the `image_download` folder and edit the user-defined settings.
 
 ### Required Parameters
 
@@ -28,8 +28,6 @@ To begin downloading PhenoCam images, open the `run_image_download.py` script an
 
 You can add as many site dictionaries to `SITE_CONFIGS` as needed—just copy and customize the format for each additional site.
 
----
-
 ### Output Directory Structure
 
 Images and metadata for each site will be saved in a subdirectory under your specified `SAVE_ROOT`. The structure will look like this:
@@ -41,9 +39,10 @@ Images and metadata for each site will be saved in a subdirectory under your spe
     - ...
     - metadata.csv
 
+---
 
 ## Training Deep Learning Model
 
 
-
+---
 ## Generating Weather Reports
